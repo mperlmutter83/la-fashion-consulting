@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { blogPosts } from '@/lib/blog-data';
+import { getPosts, toRenderPost, type RenderPost } from '@/lib/api';
 
 export const metadata: Metadata = {
   title: 'Blog',
@@ -9,7 +10,13 @@ export const metadata: Metadata = {
     'Latest news and insights from Los Angeles Fashion Consulting on fashion manufacturing, design, sourcing, and building a clothing brand.',
 };
 
-export default function BlogPage() {
+const SITE_DOMAIN = 'losangelesfashionconsulting.com';
+
+export const revalidate = 60;
+
+export default async function BlogPage() {
+  const apiPosts = await getPosts(SITE_DOMAIN);
+  const posts: RenderPost[] = apiPosts.length > 0 ? apiPosts.map(toRenderPost) : blogPosts;
   return (
     <section className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-4">
@@ -20,7 +27,7 @@ export default function BlogPage() {
           Latest News
         </h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {blogPosts.map((post) => (
+          {posts.map((post) => (
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
