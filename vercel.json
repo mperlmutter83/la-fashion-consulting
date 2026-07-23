@@ -1,0 +1,99 @@
+{
+  "redirects": [
+    {
+      "source": "/la-fashion-district-manufacturing-finding-the-right-production-partner",
+      "destination": "/blog/la-fashion-district-manufacturing-finding-the-right-production-partner",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-the-right-accessories",
+      "destination": "/blog/how-to-choose-the-right-accessories",
+      "permanent": true
+    },
+    {
+      "source": "/cut-and-sew-vs-private-label-which-is-right-for-you",
+      "destination": "/blog/cut-and-sew-vs-private-label-which-is-right-for-you",
+      "permanent": true
+    },
+    {
+      "source": "/sustainable-manufacturing-how-eco-friendly-practices-can-boost-your-brand",
+      "destination": "/blog/sustainable-manufacturing-how-eco-friendly-practices-can-boost-your-brand",
+      "permanent": true
+    },
+    {
+      "source": "/how-fashion-consulting-can-turn-your-idea-into-a-market-ready-brand",
+      "destination": "/blog/how-fashion-consulting-can-turn-your-idea-into-a-market-ready-brand",
+      "permanent": true
+    },
+    {
+      "source": "/domestic-vs-overseas-manufacturing-which-is-better-for-your-brand",
+      "destination": "/blog/domestic-vs-overseas-manufacturing-which-is-better-for-your-brand",
+      "permanent": true
+    },
+    {
+      "source": "/low-minimum-order-quantity-moq-clothing-manufacturers-in-los-angeles",
+      "destination": "/blog/low-minimum-order-quantity-moq-clothing-manufacturers-in-los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/choosing-the-right-materials-for-your-target-market-luxury-vs-streetwear-vs-athleisure",
+      "destination": "/blog/choosing-the-right-materials-for-your-target-market-luxury-vs-streetwear-vs-athleisure",
+      "permanent": true
+    },
+    {
+      "source": "/why-having-a-tech-pack-is-essential-for-any-clothing-line",
+      "destination": "/blog/why-having-a-tech-pack-is-essential-for-any-clothing-line",
+      "permanent": true
+    },
+    {
+      "source": "/what-every-designer-should-know-before-contacting-a-manufacturer",
+      "destination": "/blog/what-every-designer-should-know-before-contacting-a-manufacturer",
+      "permanent": true
+    },
+    {
+      "source": "/10-common-mistakes-new-clothing-brands-make-and-how-to-avoid-them",
+      "destination": "/blog/10-common-mistakes-new-clothing-brands-make-and-how-to-avoid-them",
+      "permanent": true
+    },
+    {
+      "source": "/the-true-cost-of-starting-a-fashion-brand-and-how-to-budget-smartly",
+      "destination": "/blog/the-true-cost-of-starting-a-fashion-brand-and-how-to-budget-smartly",
+      "permanent": true
+    },
+    {
+      "source": "/from-sketch-to-stitch-understanding-the-full-apparel-production-process",
+      "destination": "/blog/from-sketch-to-stitch-understanding-the-full-apparel-production-process",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-start-a-clothing-line-from-scratch-step-by-step-guide-for-beginners",
+      "destination": "/blog/how-to-start-a-clothing-line-from-scratch-step-by-step-guide-for-beginners",
+      "permanent": true
+    },
+    {
+      "source": "/effortless-day-to-night-styling-guide",
+      "destination": "/blog/effortless-day-to-night-styling-guide",
+      "permanent": true
+    },
+    {
+      "source": "/one-piece-three-ways-unlock-the-power-of-versatile-styling",
+      "destination": "/blog/one-piece-three-ways-unlock-the-power-of-versatile-styling",
+      "permanent": true
+    },
+    {
+      "source": "/category/:slug",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/author/:slug",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/:num",
+      "destination": "/blog",
+      "permanent": true
+    }
+  ]
+}
