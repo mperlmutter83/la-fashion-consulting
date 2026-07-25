@@ -10,6 +10,72 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'find-clothing-manufacturer-in-los-angeles',
+    title: "How to Find a Clothing Manufacturer in Los Angeles: A Founder's Checklist",
+    date: 'Jul 22, 2026',
+    category: "Manufacturing",
+    excerpt: "Looking for a clothing manufacturer in Los Angeles? Use this founder's checklist to evaluate MOQs, lead times, quality, and fit before you sign a PO.",
+    // image: '/images/blog-find-clothing-manufacturer-in-los-angeles.jpeg', // TODO: asset not yet uploaded to public/images
+    content: `## Why manufacture in Los Angeles?
+
+**Proximity.** You can drive to your factory. That means faster sample rounds, in-person fittings, and the ability to walk the production floor before you cut a purchase order.
+
+**Speed to market.** LA factories typically run shorter lead times than overseas, which matters when you're testing a SKU or chasing a season.
+
+**"Made in LA" story.** It's a real marketing asset for premium, sustainable, and streetwear brands, and resellers are paying attention.
+
+**Talent.** The LA Fashion District is surrounded by pattern makers, sample sewers, graders, and textile vendors who specialize in small-batch and emerging-brand work.
+
+## Step 1: Define what you need before you search
+
+Before you Google "Los Angeles clothing manufacturers," get clear on:
+
+- **Product category.** Tees, hoodies, denim, dresses, activewear, and outerwear each have different factory specialties. Sending a denim brief to a knit shop wastes everyone's time.
+- **Fabric and trim.** Do you have a specific mill or are you open to suggestions? Mills sometimes have preferred factories.
+- **Target MOQ.** Be honest — a factory running 500-piece minimums is wrong for a brand testing 50 units.
+- **Target wholesale and retail price.** Factories specialize by price tier. Lead with this and you'll cut the long list in half.
+- **Launch timeline.** How many weeks until you need delivery? Sample-only vs. full production?
+
+## Step 2: Where to actually find LA manufacturers
+
+- **LA Fashion District** — the downtown corridor between Santee Alley and the surrounding blocks. Walk the showrooms, ask other brands for intros, and bring a tech pack.
+- **Referrals** — the strongest leads come from other founders one stage ahead of you. Ask in every conversation.
+- **Trade shows** — LA Textile, MAGIC, and Liberty Fairs all connect brands with regional factories.
+- **Industry directories** — Maker's Row, Sqetch, and fashion-specific networks.
+- **A vetted fashion consultant** — the fastest path if you're still early. A consultant with a working factory network can match you in days, not months.
+
+## Step 3: The 8-point vetting checklist
+
+When you talk to a factory, run them through this list:
+
+1. **MOQ fit.** Does their minimum align with what you actually need to order right now — and what you'll need in 6 months?
+2. **Sampling cost and turnaround.** Ask for sample pricing in writing and a target sample date. A factory that can't give you both isn't ready.
+3. **Communication speed.** Good factories reply within one business day. Slow now = slower in production.
+4. **Capabilities in-house vs. outsourced.** Outsourced steps (printing, embroidery, wash) add lead time and cost. Know what's happening off-site.
+5. **Portfolio and references.** Ask for two or three brands in your category they've produced for. Call them.
+6. **Re-order minimums.** A great launch partner often raises minimums on re-orders. Confirm the rules now.
+7. **Payment terms.** Standard is 50% deposit, 50% before ship. Anything that asks for full payment upfront is a red flag.
+8. **Factory-floor transparency.** Will they let you visit? Do they show production photos during runs? Openness is a quality signal.
+
+## Step 4: Red flags to walk away from
+
+- No NDA offered before you share a tech pack
+- Vague pricing or "it depends" on every quote
+- No verifiable physical address
+- Pressure to commit production before a sample is approved
+- No references, or references that don't pick up
+
+## Step 5: How a consultant shortens the search
+
+If you don't have 3–6 months to run this process yourself, a fashion consultant with a working LA factory network can compress it. At Los Angeles Fashion Consulting, we sit between the brand and the factory — refining the tech pack, matching you to the right partner for your category and MOQ, coordinating samples, and negotiating terms so you don't have to learn the hard way.
+
+## Next step
+
+If you're at the "where do I start" stage, the fastest move is a 30-minute consultation. We'll review your product, MOQ, and timeline, and tell you which factories in our network are the right fit.
+
+📞 **(310) 597-4142** — or [book a free consultation online](https://losangelesfashionconsulting.com/contact).`
+  },
+  {
     slug: 'la-fashion-district-manufacturing-finding-the-right-production-partner',
     title: "LA Fashion District Manufacturing: Finding the Right Production Partner",
     date: 'Jun 9, 2026',
