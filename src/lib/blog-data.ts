@@ -12,6 +12,90 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'garment-dye-vs-piece-dye-vs-yarn-dye',
+    title: "Garment Dye vs. Piece Dye vs. Yarn Dye: Which Fits Your Brand?",
+    date: 'Aug 6, 2026',
+    category: "Manufacturing",
+    excerpt: "Garment-dyed, piece-dyed, yarn-dyed — each gives a different look, hand-feel, and MOQ. Here's how to pick the right one for your fashion brand.",
+    seoTitle: "Garment Dye vs Piece Dye vs Yarn Dye | LAFC",
+    metaDescription: "Garment-dyed, piece-dyed, yarn-dyed — each gives a different look, hand-feel, and MOQ. Here's how to pick the right one for your fashion brand.",
+    content: `Dyeing might be the most overlooked decision in building a clothing line. The same tee in three different dye methods can look, feel, and price out as three completely different products. Here's a plain-English breakdown of **garment dye vs. piece dye vs. yarn dye**, with the trade-offs that matter for your brand.
+
+## Yarn dye (dye the yarn, then knit the fabric)
+
+**What it is.** Yarns are dyed before the fabric is knitted or woven. The pattern, stripe, or color is built into the fabric itself.
+
+**Look and feel.** Crisp, defined patterns (think: oxford shirts, gingham, vintage stripes). Colors stay sharp through years of washing.
+
+**Best for:** Shirting, sweater knits, jacquards, anything with a defined pattern.
+
+**Trade-offs:**
+- ✅ Most colorfast and durable
+- ✅ Pattern is part of the fabric, not printed on top
+- ❌ Higher MOQ (yarn-dye minimums typically run 300–500+ yards per color)
+- ❌ Slower lead times and higher setup costs
+- ❌ Less flexibility to change colors mid-season
+
+**Brand fit:** Heritage shirting, premium knits, established brands with steady reorder patterns.
+
+## Piece dye (dye the fabric, then cut and sew)
+
+**What it is.** Greige (un-dyed) fabric is dyed as a continuous bolt — usually in solid colors — then cut and sewn into garments.
+
+**Look and feel.** Solid colors, smooth and even. The workhorse of the apparel industry.
+
+**Best for:** Solid-color basics, dresses, trousers, uniform programs, anything in a single color.
+
+**Trade-offs:**
+- ✅ Lower MOQ than yarn dye (often 50–100 yards per color)
+- ✅ Faster sampling
+- ✅ Easy to swap colors season to season
+- ❌ Solid colors only — no built-in patterns
+- ❌ Color can shift slightly between dye lots
+
+**Brand fit:** Contemporary basics, athleisure, modern minimalism, brands that want color flexibility.
+
+## Garment dye (dye the finished garment after sewing)
+
+**What it is.** Plain garments are sewn first, then dyed as a complete piece. The dye hits seams, pockets, labels — everything.
+
+**Look and feel.** Soft, broken-in, vintage-washed. The dyed seams and slight variation between pieces are part of the appeal.
+
+**Best for:** Washed tees, hoodies, sweatshirts, vintage-style basics, soft casualwear.
+
+**Trade-offs:**
+- ✅ Lowest MOQ (often 50 pieces or less per color)
+- ✅ Signature washed look no other method achieves
+- ✅ Excellent for sampling and small-batch drops
+- ❌ Dye lot variation is more visible
+- ❌ Care label, trims, and thread must be dye-compatible
+- ❌ Slightly higher per-unit cost than piece dye
+
+**Brand fit:** Streetwear, vintage-inspired basics, brands built around small-batch drops.
+
+## Quick comparison
+
+| Factor | Yarn dye | Piece dye | Garment dye |
+|---|---|---|---|
+| Typical MOQ | High (300–500+ yds) | Medium (50–100 yds) | Low (50 pcs or less) |
+| Lead time | Longest | Medium | Shortest |
+| Pattern capability | Built-in | Solid only | Solid / washed |
+| Color flexibility | Low | High | Medium |
+| Per-unit cost | Highest | Lowest | Medium |
+| Brand vibe | Heritage, premium | Clean, modern | Vintage, soft |
+
+## How to choose for your brand
+
+Start with two questions:
+
+1. **What's your brand's signature look?** Heritage and pattern → yarn dye. Clean modern solids → piece dye. Washed vintage softness → garment dye.
+2. **What's your MOQ reality?** If you're testing 50 units per color, garment dye is the only one of the three that fits comfortably.
+
+If you're still unsure, a clothing-manufacturing consultant can walk you through which factories specialize in each method and what makes sense at your order size. At Los Angeles Fashion Consulting, we handle this conversation with new brands every week.
+
+📞 **(310) 597-4142** — or [book a free consultation online](https://losangelesfashionconsulting.com/contact).`
+  },
+  {
     slug: 'tech-pack-checklist-manufacturers-ask',
     title: "The Tech Pack Checklist: 12 Details Manufacturers Always Ask About",
     date: 'Aug 4, 2026',
