@@ -5,6 +5,8 @@ export interface BlogPost {
   category: string;
   excerpt: string;
   image?: string;
+  seoTitle?: string;
+  metaDescription?: string;
   content: string;
 }
 

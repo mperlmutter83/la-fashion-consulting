@@ -30,11 +30,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return { title: 'Post Not Found' };
 
   return {
-    title: post.title,
-    description: post.excerpt,
+    title: post.seoTitle ?? post.title,
+    description: post.metaDescription ?? post.excerpt,
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
+      title: post.seoTitle ?? post.title,
+      description: post.metaDescription ?? post.excerpt,
       type: 'article',
     },
   };
