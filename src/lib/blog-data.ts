@@ -12,6 +12,70 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'tech-pack-checklist-manufacturers-ask',
+    title: "The Tech Pack Checklist: 12 Details Manufacturers Always Ask About",
+    date: 'Aug 4, 2026',
+    category: "Designing",
+    excerpt: "A complete tech pack saves sample rounds and money. Here are the 12 details every LA clothing manufacturer asks about before quoting your line.",
+    seoTitle: "Tech Pack Checklist: 12 Details Manufacturers Ask For | LAFC",
+    metaDescription: "A complete tech pack saves sample rounds and money. Here are the 12 details every LA clothing manufacturer asks about before quoting your line.",
+    content: `A clean tech pack is the single biggest lever you have to shorten sample rounds, avoid rework, and keep your clothing manufacturer's quote accurate. We've screened hundreds of tech packs for emerging brands at Los Angeles Fashion Consulting, and the same dozen details come up every time. Use this checklist before you send anything to a factory — and you'll save a sample round or two before production even starts.
+
+## What is a tech pack (and why does it matter)?
+
+A tech pack is the production-ready document that tells a manufacturer exactly how to build your garment. It translates your design into specs a factory can quote, sample, and produce without guessing. The more complete it is, the more accurate your quote and the fewer emails back and forth during sampling.
+
+## The 12-point tech pack checklist
+
+### 1. Cover page
+Brand name, style name, style number, season, designer contact, date, and revision number. Sounds basic — but missing revision numbers cause factory confusion every week.
+
+### 2. Front and back flat sketches
+Clean line drawings with construction lines, seams, topstitching, and any panel breaks. Hand sketches are fine if they're clear; technical vector drawings are better.
+
+### 3. Color callouts
+Pantone (PMS) numbers for every fabric, trim, and thread. Screenshots of "this color" won't cut it — Pantone is the universal language.
+
+### 4. Bill of materials (BOM)
+Every component: shell fabric, lining, interlining, buttons, zippers, labels, hang tags, poly bags. Include supplier if specified, weight (gsm or oz), and composition.
+
+### 5. Measurements spec sheet (spec sheet)
+A size-by-size measurement table for every garment dimension that matters — chest, body length, sleeve length, inseam, etc. Always include tolerances (e.g., ±0.5" on body length).
+
+### 6. Construction callouts
+Topstitch type, stitch length, seam allowance, serging, felled seams, bartacks at stress points. "Clean finish" is not a spec.
+
+### 7. Print and embroidery placement
+Artwork file (vector), placement on the garment (measured from seams), size, Pantone colors, and stitch count for embroidery.
+
+### 8. Label and trim placement
+Main label, care label, size label, hangtag loop — each with its measured position on the garment.
+
+### 9. Hardware and findings
+Buttons, snaps, zippers, rivets, drawcord tips — each with a reference photo, size, color, and supplier if required.
+
+### 10. Fabric and trim sourcing notes
+Mill, article number, finish, and any hand-feel notes. If the fabric is still being sourced, say so — don't fake a mill reference.
+
+### 11. Sample size and sample timeline
+Which size(s) to sample first, target sample date, and number of sample rounds expected.
+
+### 12. Packaging and shipping
+Folded or on hanger, poly bag spec, carton dimensions, master pack quantity, and any retail-ready packaging.
+
+## What happens if you skip a section?
+
+The factory will guess. Every guess creates a sample round you didn't need. Two or three missing items typically add a full sample round (7–10 days) and a second round of FedEx/UPS charges. Over a full collection, that's weeks of slip and hundreds of dollars per style.
+
+## How a consultant fits in
+
+If tech packs aren't your strength, a fashion consultant can convert your sketches, reference images, and fit samples into a production-ready pack, and serve as the translator between you and the factory during sampling. At Los Angeles Fashion Consulting, that's one of the first services we offer new brands — we meet you at whatever stage you have and get the pack factory-ready.
+
+## Next step
+
+Pull up your last tech pack and run it against this list. The missing items will jump out. If you'd rather have a consultant handle it, book a free consultation or call **(310) 597-4142**.`
+  },
+  {
     slug: 'find-clothing-manufacturer-in-los-angeles',
     title: "How to Find a Clothing Manufacturer in Los Angeles: A Founder's Checklist",
     date: 'Jul 22, 2026',
