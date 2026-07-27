@@ -1,7 +1,7 @@
 export interface BlogPost {
   slug: string;
   title: string;
-  date: string;
+  date: string; publishedAt: string;
   category: string;
   excerpt: string;
   image?: string;
@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'garment-dye-vs-piece-dye-vs-yarn-dye',
     title: "Garment Dye vs. Piece Dye vs. Yarn Dye: Which Fits Your Brand?",
-    date: 'Aug 6, 2026',
+    date: 'Aug 6, 2026', publishedAt: '2026-08-06',
     category: "Manufacturing",
     excerpt: "Garment-dyed, piece-dyed, yarn-dyed — each gives a different look, hand-feel, and MOQ. Here's how to pick the right one for your fashion brand.",
     seoTitle: "Garment Dye vs Piece Dye vs Yarn Dye | LAFC",
@@ -98,7 +98,7 @@ If you're still unsure, a clothing-manufacturing consultant can walk you through
   {
     slug: 'tech-pack-checklist-manufacturers-ask',
     title: "The Tech Pack Checklist: 12 Details Manufacturers Always Ask About",
-    date: 'Aug 4, 2026',
+    date: 'Aug 4, 2026', publishedAt: '2026-08-04',
     category: "Designing",
     excerpt: "A complete tech pack saves sample rounds and money. Here are the 12 details every LA clothing manufacturer asks about before quoting your line.",
     seoTitle: "Tech Pack Checklist: 12 Details Manufacturers Ask For | LAFC",
@@ -162,7 +162,7 @@ Pull up your last tech pack and run it against this list. The missing items will
   {
     slug: 'find-clothing-manufacturer-in-los-angeles',
     title: "How to Find a Clothing Manufacturer in Los Angeles: A Founder's Checklist",
-    date: 'Jul 22, 2026',
+    date: 'Jul 22, 2026', publishedAt: '2026-07-22',
     category: "Manufacturing",
     excerpt: "Looking for a clothing manufacturer in Los Angeles? Use this founder's checklist to evaluate MOQs, lead times, quality, and fit before you sign a PO.",
     // image: '/images/blog-find-clothing-manufacturer-in-los-angeles.jpeg', // TODO: asset not yet uploaded to public/images
@@ -228,7 +228,7 @@ If you're at the "where do I start" stage, the fastest move is a 30-minute consu
   {
     slug: 'la-fashion-district-manufacturing-finding-the-right-production-partner',
     title: "LA Fashion District Manufacturing: Finding the Right Production Partner",
-    date: 'Jun 9, 2026',
+    date: 'Jun 9, 2026', publishedAt: '2026-06-09',
     category: "Production",
     excerpt: "For fashion brands, choosing the right manufacturing partner can be the difference between consistent growth and costly setbacks. The LA Fashion District remains one of the most dynamic production hubs in the U.S.,...",
     image: '/images/blog-la-fashion-district.jpeg',
@@ -371,7 +371,7 @@ The LA Fashion District offers tremendous manufacturing opportunity-but the best
   {
     slug: 'how-to-choose-the-right-accessories',
     title: "How to Choose the Right Accessories",
-    date: 'Apr 29, 2026',
+    date: 'Apr 29, 2026', publishedAt: '2026-04-29',
     category: "Fashion Accessories",
     excerpt: "Accessories are the finishing touches that turn an outfit into a complete look. The right pieces can elevate your style, highlight your best features, and help you feel confident in any setting. At Los Angeles...",
     image: '/images/blog-accessories.jpeg',
@@ -510,7 +510,7 @@ If you want a curated approach, **Los Angeles Fashion Consulting** can help you 
   {
     slug: 'cut-and-sew-vs-private-label-which-is-right-for-you',
     title: "Cut and Sew vs. Private Label: Which Is Right for You?",
-    date: 'Apr 11, 2026',
+    date: 'Apr 11, 2026', publishedAt: '2026-04-11',
     category: "Manufacturing",
     excerpt: "Choosing between cut and sew manufacturing and private label production is one of the most important decisions you'll make when building a fashion brand. The right path affects your budget, timeline, product quality,...",
     image: '/images/blog-cut-and-sew.jpeg',
@@ -683,7 +683,7 @@ If you need speed and simplicity, **private label** can get you into the market 
   {
     slug: 'sustainable-manufacturing-how-eco-friendly-practices-can-boost-your-brand',
     title: "Sustainable Manufacturing: How Eco-Friendly Practices Can Boost Your Brand",
-    date: 'Apr 4, 2026',
+    date: 'Apr 4, 2026', publishedAt: '2026-04-04',
     category: "Designing",
     excerpt: "Sustainable manufacturing is no longer a niche trend in the fashion industry-it's a powerful business strategy. For brands navigating rising material costs, stricter compliance requirements, and increasingly...",
     image: '/images/blog-sustainable-manufacturing.jpeg',
@@ -808,7 +808,7 @@ If you're ready to align your manufacturing process with a stronger brand story,
   {
     slug: 'how-fashion-consulting-can-turn-your-idea-into-a-market-ready-brand',
     title: "How Fashion Consulting Can Turn Your Idea into a Market-Ready Brand",
-    date: 'Mar 19, 2026',
+    date: 'Mar 19, 2026', publishedAt: '2026-03-19',
     category: "Marketing &amp; Branding",
     excerpt: "Turning a fashion idea into a brand customers can buy, wear, and rave about takes far more than a sketch or a mood board. It requires a clear strategy, market validation, a strong brand identity, reliable production,...",
     image: '/images/blog-idea-to-brand.jpeg',
@@ -959,7 +959,7 @@ If you're ready to move from idea to execution, **Los Angeles Fashion Consulting
   {
     slug: 'domestic-vs-overseas-manufacturing-which-is-better-for-your-brand',
     title: "Domestic vs. Overseas Manufacturing: Which Is Better for Your Brand?",
-    date: 'Feb 22, 2026',
+    date: 'Feb 22, 2026', publishedAt: '2026-02-22',
     category: "Manufacturing",
     excerpt: "Choosing between domestic and overseas manufacturing is one of the most important decisions a fashion brand will make. It impacts your costs, quality, speed to market, minimum order quantities (MOQs), brand story,...",
     image: '/images/blog-domestic-vs-overseas.jpeg',
@@ -1188,7 +1188,7 @@ If you're deciding between domestic and overseas manufacturing, the best next st
   {
     slug: 'low-minimum-order-quantity-moq-clothing-manufacturers-in-los-angeles',
     title: "Low Minimum Order Quantity (MOQ) Clothing Manufacturers in Los Angeles",
-    date: 'Feb 18, 2026',
+    date: 'Feb 18, 2026', publishedAt: '2026-02-18',
     category: "Manufacturing",
     excerpt: "If you're launching a fashion brand or testing a new clothing line, finding low minimum order quantity (MOQ) clothing manufacturers in Los Angeles can make or break your success. At Los Angeles Fashion Consulting, we...",
     content: `If you're launching a fashion brand or testing a new clothing line, finding **low minimum order quantity (MOQ) clothing manufacturers in Los Angeles** can make or break your success. At **Los Angeles Fashion Consulting**, we specialize in helping startups and growing brands connect with the right LA apparel manufacturers - especially those offering small production runs, flexible MOQs, and scalable growth options.
@@ -1364,7 +1364,7 @@ Contact **Los Angeles Fashion Consulting** today to connect with trusted low-MOQ
   {
     slug: 'choosing-the-right-materials-for-your-target-market-luxury-vs-streetwear-vs-athleisure',
     title: "Choosing the Right Materials for Your Target Market (Luxury vs. Streetwear vs. Athleisure)",
-    date: 'Dec 19, 2025',
+    date: 'Dec 19, 2025', publishedAt: '2025-12-19',
     category: "Athleisure",
     excerpt: "One of the most important-and often overlooked-decisions in building a successful clothing brand is choosing the right materials for your target market. Fabric selection directly impacts your brand perception,...",
     image: '/images/blog-right-materials.jpeg',
@@ -1569,7 +1569,7 @@ Whether you're building a luxury capsule, launching a streetwear drop, or develo
   {
     slug: 'why-having-a-tech-pack-is-essential-for-any-clothing-line',
     title: "Why Having a Tech Pack Is Essential for Any Clothing Line",
-    date: 'Dec 12, 2025',
+    date: 'Dec 12, 2025', publishedAt: '2025-12-12',
     category: "Designing",
     excerpt: "Launching a clothing line is exciting-but turning your ideas into production-ready garments requires more than sketches and inspiration. Whether you're creating streetwear, activewear, luxury pieces, or a full-scale...",
     image: '/images/blog-tech-pack.jpeg',
@@ -1721,7 +1721,7 @@ Let our experts guide you through the technical side of fashion production.
   {
     slug: 'what-every-designer-should-know-before-contacting-a-manufacturer',
     title: "What Every Designer Should Know Before Contacting a Manufacturer",
-    date: 'Dec 5, 2025',
+    date: 'Dec 5, 2025', publishedAt: '2025-12-05',
     category: "Manufacturing",
     excerpt: "Breaking into fashion production is one of the most exciting-and challenging-steps for any designer. Whether you're launching your first collection or scaling an existing brand, choosing and approaching the right...",
     image: '/images/blog-before-contacting-manufacturer.jpeg',
@@ -1890,7 +1890,7 @@ If you need guidance at any stage-from concept to manufacturing-**Los Angeles Fa
   {
     slug: '10-common-mistakes-new-clothing-brands-make-and-how-to-avoid-them',
     title: "10 Common Mistakes New Clothing Brands Make - and How to Avoid Them",
-    date: 'Nov 11, 2025',
+    date: 'Nov 11, 2025', publishedAt: '2025-11-11',
     category: "Designing",
     excerpt: "Launching a clothing brand is exciting - but it's also one of the most competitive industries in the world. Between creative design, production challenges, and marketing, it's easy for new fashion entrepreneurs to...",
     image: '/images/blog-10-mistakes.jpeg',
@@ -1953,7 +1953,7 @@ Building a successful clothing brand is a mix of creativity, business strategy, 
   {
     slug: 'the-true-cost-of-starting-a-fashion-brand-and-how-to-budget-smartly',
     title: "The True Cost of Starting a Fashion Brand (and How to Budget Smartly)",
-    date: 'Oct 28, 2025',
+    date: 'Oct 28, 2025', publishedAt: '2025-10-28',
     category: "Designing",
     excerpt: "Starting a fashion brand can be one of the most exciting ventures for creative entrepreneurs-but it's also a financial challenge that requires clear planning. Whether you're launching a small streetwear label or a...",
     image: '/images/blog-true-cost.jpeg',
@@ -2052,7 +2052,7 @@ If you plan your finances wisely, you'll not only create clothing-you'll build a
   {
     slug: 'from-sketch-to-stitch-understanding-the-full-apparel-production-process',
     title: "From Sketch to Stitch: Understanding the Full Apparel Production Process",
-    date: 'Oct 24, 2025',
+    date: 'Oct 24, 2025', publishedAt: '2025-10-24',
     category: "Designing",
     excerpt: "Launching a clothing line involves more than just great ideas and creative designs - it's a journey that transforms imagination into wearable art. Whether you're a fashion visionary or an aspiring entrepreneur,...",
     image: '/images/blog-sketch-to-stitch.jpeg',
@@ -2109,7 +2109,7 @@ The apparel production process blends artistry, technology, and precision crafts
   {
     slug: 'how-to-start-a-clothing-line-from-scratch-step-by-step-guide-for-beginners',
     title: "How to Start a Clothing Line from Scratch: Step-by-Step Guide for Beginners",
-    date: 'Oct 20, 2025',
+    date: 'Oct 20, 2025', publishedAt: '2025-10-20',
     category: "Designing",
     excerpt: "Starting a clothing line is an exciting journey that combines creativity, business strategy, and brand identity. Whether you dream of launching a luxury fashion label or a streetwear brand, success comes from...",
     image: '/images/blog-start-clothing-line.jpeg',
@@ -2260,7 +2260,7 @@ With the right plan and execution, your clothing line can grow from a simple ide
   {
     slug: 'effortless-day-to-night-styling-guide',
     title: "Effortless Day-to-Night Styling Guide",
-    date: 'Oct 10, 2025',
+    date: 'Oct 10, 2025', publishedAt: '2025-10-10',
     category: "Styling",
     excerpt: "Effortless Day-to-Night Styling Guide Whether you're juggling work, errands, or casual meetups during the day and heading to dinner, drinks, or an event in the evening, transitioning your outfit seamlessly is key....",
     image: '/images/blog-day-to-night.jpeg',
@@ -2361,7 +2361,7 @@ With these steps, transitioning your look from day to night becomes a stress-fre
   {
     slug: 'one-piece-three-ways-unlock-the-power-of-versatile-styling',
     title: "One Piece, Three Ways: Unlock the Power of Versatile Styling",
-    date: 'Oct 1, 2025',
+    date: 'Oct 1, 2025', publishedAt: '2025-10-01',
     category: "Styling",
     excerpt: "When it comes to fashion, versatility is key. Investing in pieces that can transition effortlessly from casual outings to formal events not only maximizes your wardrobe but also saves you time and money. Today, we're...",
     image: '/images/blog-one-piece-three-ways.jpeg',
@@ -2417,10 +2417,33 @@ Which look will you try first? Leave a comment and share your favorite way to st
   }
 ];
 
-export function getPostBySlug(slug: string): BlogPost | undefined {
-  return blogPosts.find(post => post.slug === slug);
+
+/** Current date in America/Los_Angeles as YYYY-MM-DD. */
+function getTodayLA(): string {
+  return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
 }
 
+/**
+ * Only posts whose publishedAt is <= today (America/Los_Angeles).
+ * Use for all public-facing listings and lookups so scheduled posts
+ * stay invisible until their date.
+ */
+export function getPublishedPosts(): BlogPost[] {
+  const today = getTodayLA();
+  return blogPosts.filter(post => post.publishedAt <= today);
+}
+
+/** Published post by slug — undefined if not found or not yet published. */
+export function getPostBySlug(slug: string): BlogPost | undefined {
+  return getPublishedPosts().find(post => post.slug === slug);
+}
+
+/** Slugs of published posts (generateStaticParams). */
 export function getAllPostSlugs(): string[] {
-  return blogPosts.map(post => post.slug);
+  return getPublishedPosts().map(post => post.slug);
+}
+
+/** ALL posts (published + scheduled) — /api/posts feed & admin only. */
+export function getAllPosts(): BlogPost[] {
+  return blogPosts;
 }
