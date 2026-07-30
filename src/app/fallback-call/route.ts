@@ -1,7 +1,7 @@
 const TWIML = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Dial record="record-from-answer-dual" timeout="15" action="/fallback-call">
-    <Number>+118788476651</Number>
+    <Number>+18788476651</Number>
   </Dial>
 </Response>`;
 
